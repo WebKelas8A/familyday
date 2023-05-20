@@ -108,67 +108,36 @@ nav.open ~ .overlay {
   left: 260px;
   pointer-events: auto;
 }
-img{
-  width: 16rem;
-  margin-top: 10rem;
-  margin-left: 2rem;
-  border-radius: 1rem;
-  transition: .6s;
+.topic{
+  padding: 8rem 7% 1.4rem;
 }
-img:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 7px 10px;
+.topic .row{
+  display: flex;
 }
-.topic1 .desc{
-  margin-top: 1.2rem;
-  margin-left: 2rem;
+.topic .row .topic-img{
+  flex: 1 1 45rem;
 }
-.topic1::after{
-  display: table;
+.topic .row .topic-img img{
+  width: 100%;
+  margin: 2rem;
 }
-.topic1 .desc::after{
-  content: "";
-  border-bottom: 1px solid var(--utama);
-  transform: scaleX(0);
-  display: block;
-  transition: 1.5s;
-  transform-origin: 0 0;
+.topic .row .topic-content{
+  flex: 1 1 39rem;
+  margin-left: 1.4rem;
 }
-.desc:hover::after{
-  transform: scaleX(0.15);
-  color: white;
+.topic .row .topic-content h3{
+  margin-top: 1.6rem;
+  margin-left: 2.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
-
-.icon{
-  font-size: 1.6rem;
-  transition: all .3s;
-  margin-left: 2rem;
+.topic .row .topic-content p{
+  margin-bottom: 0.8rem;
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
-
-.bxl-instagram{
-  transition: .3s;
-}
-.icon .bxl-instagram:hover{
-  scale: 1.2;
-  color: magenta;
-}
-
-.bxl-youtube{
-  transition: .3s;
-}
-.icon .bxl-youtube:hover{
-  scale: 1.2;
-  color: red;
-}
-
-.bxl-google{
-  transition: .3s;
-}
-.icon .bxl-google:hover{
-  scale: 1.2;
-  color: rgb(91, 124, 233);
-}
-@media(max-width: 360px){
+@media(max-width: 420px){
   body {
     min-height: 100%;
     background: var(--bg);
@@ -179,7 +148,7 @@ img:hover{
     left: 0;
     height: 70px;
     width: 100%;
-    display: flex;
+    display: fixed;
     align-items: center;
     background: var(--utama);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -266,60 +235,35 @@ img:hover{
     pointer-events: auto;
   }
   img{
-    width: 16rem;
-    margin-top: 10rem;
-    margin-left: 2rem;
     border-radius: 1rem;
-    transition: .6s;
   }
-  img:hover{
-    transform: scale(1.1);
-    box-shadow: 1px 7px 10px;
+  .topic{
+    padding: 8rem 7% 1.4rem;
   }
-  .topic1 .desc{
-    margin-top: 1.2rem;
-    margin-left: 2rem;
+  .topic .row{
+    display: flex;
   }
-  .topic1 .desc::after{
-    content: "";
-    border-bottom: 1px solid var(--utama);
-    transform: scaleX(0);
-    display: block;
-    transition: 1.5s;
-    transform-origin: 0 0;
+  .topic .row .topic-img{
+    flex: 1 1 45rem;
   }
-  .desc:hover::after{
-    transform: scaleX(0.87);
-    color: white;
+  .topic .row .topic-img img{
+    width: 100%;
+    margin: 2rem;
   }
-
-  .icon{
-    font-size: 1.6rem;
-    transition: all .3s;
-    margin-left: 2rem;
+  .topic .row .topic-content{
+    flex: 1 1 35rem;
+    margin-left: 1.4rem;
   }
-
-  .bxl-instagram{
-    transition: .3s;
+  .topic .row .topic-content h3{
+    margin-top: 1.6rem;
+    margin-left: 2.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
-  .icon .bxl-instagram:hover{
-    scale: 1.2;
-    color: magenta;
-  }
-
-  .bxl-youtube{
-    transition: .3s;
-  }
-  .icon .bxl-youtube:hover{
-    scale: 1.2;
-    color: red;
-  }
-
-  .bxl-google{
-    transition: .3s;
-  }
-  .icon .bxl-google:hover{
-    scale: 1.2;
-    color: rgb(91, 124, 233);
+  .topic .row .topic-content p{
+    margin-bottom: 0.8rem;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
   }
 }
