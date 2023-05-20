@@ -227,7 +227,7 @@ nav.open ~ .overlay {
   }
   .lists .nav-link:hover .icon,
   .lists .nav-link:hover .link {
-    color: #fff;
+    color: #000000;
   }
   .overlay {
     position: fixed;
