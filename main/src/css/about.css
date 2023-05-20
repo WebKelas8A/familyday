@@ -51,3 +51,29 @@
   font-size: 1.3rem;
   line-height: 1.5;
 }
+@media(max-width: 1013px){
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 25rem;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.6rem;
+    
+  }
+}
