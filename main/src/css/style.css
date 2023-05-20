@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 :root{
-  --utama: #faae2b;
-  --bg: #00473e;
+  --utama: #9dd7bb;
+  --bg: #ffffff;
   --teks: #000;
   --button: ;
+}
+.aktif{
+  scale: 1.1;
+  border-radius: 8px;
+  background-color: #fff;
 }
 * {
   margin: 0;
@@ -90,7 +95,13 @@ nav.open .sidebar {
 }
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
-  color: #fff;
+  color: #000000;
+}
+.hover{
+  transition: 0.3s;
+}
+.hover:hover{
+  scale: 1.1;
 }
 .overlay {
   position: fixed;
