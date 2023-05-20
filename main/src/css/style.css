@@ -227,7 +227,7 @@ img:hover{
     display: flex;
     align-items: center;
     margin: 8px 0;
-    padding: 14px 12px;
+    padding: 14px 1px;
     border-radius: 8px;
     text-decoration: none;
     transition: 0.6s;
