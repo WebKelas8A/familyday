@@ -123,6 +123,9 @@ img:hover{
   margin-top: 1.2rem;
   margin-left: 2rem;
 }
+.topic1::after{
+  display: table;
+}
 .topic1 .desc::after{
   content: "";
   border-bottom: 1px solid var(--utama);
@@ -192,7 +195,7 @@ img:hover{
     cursor: pointer;
   }
   .logo .logo-name {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
   }
   nav .sidebar {
@@ -286,7 +289,7 @@ img:hover{
     transform-origin: 0 0;
   }
   .desc:hover::after{
-    transform: scaleX(0.15);
+    transform: scaleX(0.87);
     color: white;
   }
 
