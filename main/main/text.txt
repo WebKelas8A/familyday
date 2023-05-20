@@ -1,0 +1,34 @@
+<section id="about" class="about">
+    <h2><span>About</span> 8A</h2>
+    <div class="row">
+      <div class="about-img">
+        <img src="/img/goals.png" alt="About">
+      </div>
+      <div class="content">
+        <h3>Goals</h3>
+        <p style="text-align: left;">Class 8a, the class taught by Ms. Maria. Classes that have the goal of "Positive Vibes Class" and want to become "Teacher's Favorite Class" which has been determined on Wednesday, July 27 2022.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="/img/champion.jpg" alt="About">
+      </div>
+      <div class="content">
+        <h3>Always Champion</h3>
+        <p style="text-align: left;">GO TO CHAMPIONN! 8A CLASS!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/sekolah.jpg" alt="About">
+      </div>
+      <div class="content">
+        <h3>SCB Jonggol</h3>
+        <p style="text-align: left;">We Are Part Of SCB Citra Indah Jonggol</p>
+        <a href="https://www.youtube.com/@sekolahcitraberkatcitraind7063"><i class='bx bxl-youtube'></i></a>
+        <a href="https://www.ciputra.com/en/portfolio/sekolah-citra-berkat/"><i class='bx bxl-google'></i>
+        <a href="https://www.instagram.com/scbcitraindah/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.tiktok.com/@scbcitraindah"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+  </section>
