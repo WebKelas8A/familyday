@@ -93,6 +93,48 @@ nav.open .sidebar {
   color: #000000;
   font-weight: 400;
 }
+
+.search__student{
+  position: relative;
+  top: 12px;
+}
+.student__form{
+  position: fixed;
+  top: 0px;
+  left: 40%;
+}
+.search__student{
+  height: 50px;
+  border: none;
+  border-radius: 2rem;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+
+.search__nav{
+  position: relative;
+  top: 12px;
+}
+.search__nav{
+  left: 30px;
+}
+.search__nav{
+  height: 50px;
+  width: 400px;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.search__nav{
+  width: 160px;
+}
+
+
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
   color: #000000;
@@ -147,6 +189,21 @@ nav.open ~ .overlay {
   margin-left: 2.5rem;
   font-size: 1.3rem;
   line-height: 1.5;
+}
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+@media(max-width: 670px){
+  .search__student{
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    width: 350px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+  }
 }
 @media(max-width: 420px){
   body {
@@ -276,5 +333,83 @@ nav.open ~ .overlay {
     margin-left: 2.5rem;
     font-size: 1.3rem;
     line-height: 1.5;
+  }
+  .search__student{
+    position: relative;
+    top: 12px;
+  }
+  .student__form{
+    position: fixed;
+    top: 0px;
+    bottom: 10px;
+    left: 44%;
+  }
+  .search__student{
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    width: 230px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .search__nav{
+    position: relative;
+    top: 12px;
+  }
+  .search__nav{
+    left: 15px;
+  }
+  .search__nav{
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .search__nav{
+    width: 160px;
+  }
+}
+@media(max-width: 360px) {
+  .search__student{
+    position: relative;
+    top: 12px;
+  }
+  .student__form{
+    position: fixed;
+    top: 0px;
+    bottom: 10px;
+    left: 55%;
+  }
+  .search__student{
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    width: 150px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .search__nav{
+    position: relative;
+    top: 12px;
+  }
+  .search__nav{
+    left: 15px;
+  }
+  .search__nav{
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .search__nav{
+    width: 160px;
   }
 }

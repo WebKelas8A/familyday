@@ -51,6 +51,63 @@
   font-size: 1.3rem;
   line-height: 1.5;
 }
+.bx{
+  transition: 0.3s;
+}
+
+.bxl-twitter:hover{
+  color: skyblue;
+}
+
+.bx:hover {
+  transform: scale(1.2);
+}
+
+.bxl-tiktok {
+  color: #00ccff;
+}
+
+.bxl-tiktok:hover {
+  text-shadow: 4px 2px 1px rgba(255, 0, 0, 0.5);
+  color: rgba(135, 206, 235, 0.8);
+}
+
+.bxl-spotify {
+  color: lightgreen;
+}
+
+.bxl-spotify:hover {
+  color: rgba(29, 232, 29, 0.5);
+}
+
+.bxl-instagram {
+  color: rgb(230, 25, 114);
+}
+
+.bxl-instagram:hover{
+  color: rgb(241, 202, 219);
+}
+
+.bxl-youtube {
+  color: red;
+}
+
+.bxl-youtube:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.bxl-google {
+  color: #0c3f50;
+}
+
+.bxl-google:hover {
+  text-shadow: 3px 1px 1px rgba(255, 0, 0, 0.5);
+  color: rgb(0, 132, 255);
+}
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
 @media(max-width: 1013px){
   .about .row {
     flex-wrap: wrap;

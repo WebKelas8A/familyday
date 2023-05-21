@@ -20,7 +20,8 @@
           <i class="bx bx-menu menu-icon"></i>
           <span class="logo-name">8A Class</span>
         </div>
-        <div class="sidebar-content">
+        <input class="search__nav" id="search__nav" type="text" onkeyup="searchNav()" placeholder="Search here..">
+        <div class="sidebar-content" id="all-nav">
           <ul class="lists">
             <li class="list hover">
               <a href="index.html" class="nav-link">
@@ -47,7 +48,7 @@
               </a>
             </li>
             <li class="list aktif">
-              <a href="#" class="nav-link">
+              <a href="student.html" class="nav-link">
                 <i class="bx bx--alt icon"></i>
                 <span class="link">Student</span>
               </a>
@@ -69,6 +70,9 @@
       </div>
     </nav>
     <section id="students" class="student">
+        <div class="student__form">
+           <input class="search__student" id="student__form__search" type="text" placeholder="Student Name.." onkeyup="search()">
+        </div>
         <div class="row">
           <div class="student-card">
             <img src="src/img/class/student/abygail.jpg" alt="student" class="student-card-img">
@@ -454,6 +458,9 @@
         </div>
       </section>
     <section class="overlay"></section>
+
     <script src="src/js/side_bar.js"></script>
+    <script src="src/js/search__for__navbar.js"></script>
+    <script src="src/js/search__for__students.js"></script>
   </body>
 </html>

@@ -89,4 +89,7 @@
     text-shadow: 3px 1px 1px rgba(255, 0, 0, 0.5);
     color: rgb(255, 255, 255);
   }
-  
+  .bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
+    font-size: 3rem;
+    margin: 0.5rem;
+  }
