@@ -4,6 +4,14 @@
   --bg: #ffffff;
   --teks: #000;
   --button: ;
+  --byngn: #0000;
+}
+img{
+  transition: .5s;
+}
+img:hover{
+  transform: scale(1.1);
+  box-shadow: black 3px 5px 20px;
 }
 .aktif{
   scale: 1.1;
@@ -31,6 +39,7 @@ nav {
   align-items: center;
   background: var(--utama);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 nav .logo {
   display: flex;
@@ -180,13 +189,13 @@ nav.open ~ .overlay {
 }
 .topic .row .topic-content h3{
   margin-top: 1.6rem;
-  margin-left: 2.5rem;
+  margin-left: 4.5rem;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 .topic .row .topic-content p{
   margin-bottom: 0.8rem;
-  margin-left: 2.5rem;
+  margin-left: 4.5rem;
   font-size: 1.3rem;
   line-height: 1.5;
 }
