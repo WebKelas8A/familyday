@@ -1,0 +1,157 @@
+.scb__logo__{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    right: 1%;
+}
+.content__scb{
+    position: absolute;
+    top: 25rem;
+}
+.about,
+.menu,
+.contact {
+  padding: 8rem 7% 1.4rem;
+}
+.about a p{
+  transition: 0.3s;
+}
+.about a p:hover{
+  transform: scale(0.9);
+}
+.about h2,
+.menu h2{
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.menu h2 span,
+.contact h2 span {
+  color: var(--utama);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .scb__img {
+  flex: 1 1 45rem;
+}
+
+.about .row .scb__img img {
+  width: 100%;
+  margin: .5rem;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.bx{
+  transition: 0.3s;
+}
+
+.bxl-twitter:hover{
+  color: skyblue;
+}
+
+.bx:hover {
+  transform: scale(1.2);
+}
+
+.bxl-tiktok {
+  color: #00ccff;
+}
+
+.bxl-tiktok:hover {
+  text-shadow: 4px 2px 1px rgba(255, 0, 0, 0.5);
+  color: rgba(135, 206, 235, 0.8);
+}
+
+.bxl-spotify {
+  color: lightgreen;
+}
+
+.bxl-spotify:hover {
+  color: rgba(29, 232, 29, 0.5);
+}
+
+.bxl-instagram {
+  color: rgb(230, 25, 114);
+}
+
+.bxl-instagram:hover{
+  color: rgb(241, 202, 219);
+}
+
+.bxl-youtube {
+  color: red;
+}
+
+.bxl-youtube:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.bxl-google {
+  color: #0c3f50;
+}
+
+.bxl-google:hover {
+  text-shadow: 3px 1px 1px rgba(255, 0, 0, 0.5);
+  color: rgb(0, 132, 255);
+}
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+@media(max-width: 1013px){
+  .content__scb{
+    top: 15rem;
+  }
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .scb__img img {
+    height: 25rem;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.6rem;
+    
+  }
+}
+@media(max-width: 360px){
+  .content__scb{
+    top: 10rem;
+  }
+  .scb__img img {
+    width: 100%;
+    margin: .5rem;
+  }
+}

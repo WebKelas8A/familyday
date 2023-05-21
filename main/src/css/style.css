@@ -6,6 +6,12 @@
   --button: ;
   --byngn: #0000;
 }
+
+::selection{
+  background: var(--utama);
+}
+/* img 
+
 img{
   transition: .5s;
 }
@@ -13,11 +19,17 @@ img:hover{
   transform: scale(1.1);
   box-shadow: black 3px 5px 20px;
 }
+img */
+
+/* active class */
 .aktif{
   scale: 1.1;
   border-radius: 8px;
   background-color: #fff;
 }
+/* active class end */
+
+/* global */
 * {
   margin: 0;
   padding: 0;
@@ -25,10 +37,16 @@ img:hover{
   font-family: "Poppins", sans-serif;
   color: var(--teks);
 }
+/* global end */
+
+/* body end */
 body {
   min-height: 100%;
   background: var(--bg);
 }
+/* body end */
+
+/* nav */
 nav {
   position: fixed;
   top: 0;
@@ -41,6 +59,7 @@ nav {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
+
 nav .logo {
   display: flex;
   align-items: center;
@@ -102,29 +121,6 @@ nav.open .sidebar {
   color: #000000;
   font-weight: 400;
 }
-
-.search__student{
-  position: relative;
-  top: 12px;
-  z-index: 11;
-}
-.student__form{
-  position: fixed;
-  top: 0px;
-  left: 40%;
-  z-index: 11;
-}
-.search__student{
-  height: 50px;
-  border: none;
-  border-radius: 2rem;
-  width: 400px;
-  outline: none;
-  font-size: 16px;
-  padding-left: 20px;
-  z-index: 11;
-}
-
 .search__nav{
   position: relative;
   top: 12px;
@@ -144,8 +140,6 @@ nav.open .sidebar {
 .search__nav{
   width: 160px;
 }
-
-
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
   color: #000000;
@@ -172,6 +166,34 @@ nav.open ~ .overlay {
   left: 260px;
   pointer-events: auto;
 }
+/* nav end */
+
+
+/* body-student search */
+.search__student{
+  position: relative;
+  top: 12px;
+  z-index: 11;
+}
+.student__form{
+  position: fixed;
+  top: 0px;
+  left: 40%;
+  z-index: 11;
+}
+.search__student{
+  height: 50px;
+  border: none;
+  border-radius: 2rem;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+  z-index: 11;
+}
+/* body-student search end */
+
+/* body-topic */
 .topic{
   padding: 8rem 7% 1.4rem;
 }
@@ -201,10 +223,15 @@ nav.open ~ .overlay {
   font-size: 1.3rem;
   line-height: 1.5;
 }
+/* body-topic end */
+
+/* icon */
 .bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
   font-size: 3rem;
   margin: 0.5rem;
 }
+/* icon end */
+
 @media(max-width: 670px){
   .search__student{
     height: 50px;
