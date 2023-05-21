@@ -106,11 +106,13 @@ nav.open .sidebar {
 .search__student{
   position: relative;
   top: 12px;
+  z-index: 11;
 }
 .student__form{
   position: fixed;
   top: 0px;
   left: 40%;
+  z-index: 11;
 }
 .search__student{
   height: 50px;
@@ -120,8 +122,8 @@ nav.open .sidebar {
   outline: none;
   font-size: 16px;
   padding-left: 20px;
+  z-index: 11;
 }
-
 
 .search__nav{
   position: relative;
@@ -352,6 +354,7 @@ nav.open ~ .overlay {
     top: 0px;
     bottom: 10px;
     left: 44%;
+    z-index: 11;
   }
   .search__student{
     height: 50px;
@@ -392,6 +395,7 @@ nav.open ~ .overlay {
     top: 0px;
     bottom: 10px;
     left: 55%;
+    z-index: 11;
   }
   .search__student{
     height: 50px;
