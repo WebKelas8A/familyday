@@ -1,131 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8A Website</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thank You!</title>
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
 
-    <!-- Nav Menu-->
-    <nav>
-      <div class="logo">
-        <i class="bx bx-menu menu-icon"></i>
-        <span class="logo-name">8A Class</span>
-      </div>
-      <div class="sidebar">
-        <div class="logo">
-          <i class="bx bx-menu menu-icon"></i>
-          <span class="logo-name">8A Class</span>
-        </div>
-        <input class="search__nav" id="search__nav" type="text" onkeyup="searchNav()" placeholder="Search here..">
-        <div class="sidebar-content" id="all-nav">
-          <ul class="lists">
-            <li class="list aktif">
-              <a href="#" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">Home</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="about.html" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">About</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="#" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">Homeroom</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="#" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">Leader Of Class</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="student.html" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">Student</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="#" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">Headmaster</span>
-              </a>
-            </li>
-            <li class="list hover">
-              <a href="scbci.html" class="nav-link">
-                <i class="bx bx--alt icon"></i>
-                <span class="link">SCB Citra Bekat</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Nav Menu End -->
+</head>
+<body>
 
-    <!-- Topic Menu -->
-    <section class="topic">
-      <div class="row">
-        <div class="topic-img">
-          <img src="src/img/sekolah.jpg" alt="Gedung Sekolah">
-        </div>
-        <div class="topic-content">
-          <h3>Topic Name</h3>
-          <p>Topic Desc</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="topic-img">
-          <img src="src/img/sekolah.jpg" alt="Gedung Sekolah">
-        </div>
-        <div class="topic-content">
-          <h3>Topic Name</h3>
-          <p>Topic Desc</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="topic-img">
-          <img src="src/img/sekolah.jpg" alt="Gedung Sekolah">
-        </div>
-        <div class="topic-content">
-          <h3>Topic Name</h3>
-          <p>Topic Desc</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="topic-img">
-          <img src="src/img/sekolah.jpg" alt="Gedung Sekolah">
-        </div>
-        <div class="topic-content">
-          <h3>Topic Name</h3>
-          <p>Topic Desc</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="topic-img">
-          <img src="src/img/sekolah.jpg" alt="Gedung Sekolah">
-        </div>
-        <div class="topic-content">
-          <h3>Topic Name</h3>
-          <p>Topic Desc</p>
-        </div>
-      </div>
-    </section>
-    <!-- Topic Menu End -->
+	<div class="wrapper">
+		<div class="content">
 
-    <!-- Oter Link -->
-    <section class="overlay"></section>
-    <script src="src/js/search__for__navbar.js"></script>
-    <script src="src/js/side__bar__menu.js"></script>
-    <!-- Oter Link End -->
-  </body>
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/" alt="fotbarkelas" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">Class 8A</h1>
+					</div>
+				</div>
+			</header>
+		
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quo.</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Kami Dari Kelas 8A!</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut tempora assumenda eius labore, perferendis repellendus dolorum itaque quibusdam!</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+					</main>
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+					</main>
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+					</main>
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Terimakasih Kepada</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
+							</div>
+		
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+							<img class="gallery__item" src="img" alt="Alt">
+		
+						</div>
+
+					</main>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
 </html>
