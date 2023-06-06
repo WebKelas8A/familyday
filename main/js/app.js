@@ -14,10 +14,16 @@ if (ScrollTrigger.isTouch !== 1) {
 		scrollTrigger: {
 			trigger: '.hero-section',
 			start: 'center',
-			end: '820',
+			end: '850',
 			scrub: true
 		}
 	})
+
+	gsap.fromTo('.hero-section', 
+		{ opacity: 0 }, {
+			opacity: 1,
+			duration: 5,
+		})
 
 	let itemsL = gsap.utils.toArray('.gallery__left .gallery__item')
 
@@ -26,7 +32,7 @@ if (ScrollTrigger.isTouch !== 1) {
 			opacity: 1, x: 0,
 			scrollTrigger: {
 				trigger: item,
-				start: '-850',
+				start: '-1350',
 				end: '-100',
 				scrub: true
 			}
@@ -40,7 +46,7 @@ if (ScrollTrigger.isTouch !== 1) {
 			opacity: 1, x: 0,
 			scrollTrigger: {
 				trigger: item,
-				start: '-750',
+				start: '-1750',
 				end: 'top',
 				scrub: true
 			}
@@ -48,3 +54,7 @@ if (ScrollTrigger.isTouch !== 1) {
 	})
 
 }
+
+window.addEventListener('scroll', () =>{
+	document.getElementById("bg__music");
+});

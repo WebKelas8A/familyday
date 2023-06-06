@@ -1,7 +1,17 @@
-* {
-	margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,800;1,100;1,300;1,800&family=Oswald:wght@200;400;700&family=Pangolin&display=swap');
+*{	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+}
+p{
+	text-align: center;
+}
+a{
+	color: var(--color-text);
+}
+::-webkit-scrollbar{
+	width: 0;
 }
 :root {
 	--index: calc(1vw + 1vh);
@@ -10,25 +20,28 @@
 	--gallery-gap: calc(var(--index) * 7.5)
 }
 @font-face {
-	font-family: raleway-c;
+	font-family: 'Oswald', sans-serif;
 	src: url(../fonts/raleway-regular.woff2);
 }
 @font-face {
-	font-family: outfit-c;
+	font-family: 'Oswald', sans-serif;
 	src: url(../fonts/outfit-regular.woff2);
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: outfit-c;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
 /* will-change */
 .content, .hero, .main-header, .gallery > * {
 	will-change: transform;
 }
 body {
-	background-image: url(../img/bg.jpg);
+	background: black;
 	background-size: 50px;
 	color: #fafafa;
-	font-family: raleway-c;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
 	overflow-x: hidden;
 }
 .hero {
@@ -37,15 +50,18 @@ body {
 	left: 37vw;
 	top: 22vh;
 	z-index: -1;
+	opacity: 78%;
+	
 }
 .main-header {
 	height: 100vh;
+	margin-left: 20rem;
 }
 .container {
 	padding: 0 7vw;
 }
 .main-title {
-	font-size: calc(var(--index) * 8);
+	font-size: calc(var(--index) * 5);
 	position: absolute;
 	width: min-content;
 	bottom: 12vh;
@@ -86,4 +102,8 @@ body {
 }
 .text-block__p {
 	line-height: 1.75;
+}
+.char {
+    transform: translateY(115px);
+    transition: transform .5s;
 }

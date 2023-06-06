@@ -1,158 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Thank You!</title>
-	<script src="libs/gsap/gsap.min.js" defer></script>
-	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
-	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
-	<link rel="stylesheet" href="css/main.css">
-	<script src="js/app.js" defer></script>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Credit Scene</title>
+		<script src="libs/gsap/gsap.min.js" defer></script>
+		<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+		<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+		<script src="https://unpkg.com/split-type"></script>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/app.js" defer></script>
+	</head>
+	<body>
+		<audio id="bg__music">
+			<source src="music/bg__music.mp3">
+		</audio>
+		<div class="wrapper">
+			<div class="content">
+				<header class="hero-section" style="display: none;">
+					<img data-speed=".6" class="hero" src="img/goals.png" alt="fotbarkelas" >
+					<div class="container">
+						<div data-speed=".75" class="main-header" style="display: none;">
+							<h1 class="main-title">8A Class</h1>
+						</div>
+					</div>
+				</header>
+				<div class="portfolio">
+					<div class="container">
+						<main class="gallery">
+							<div data-speed=".9" class="gallery__left" >
+								<div class="gallery__item" style="margin-top: 40rem;">
+									<h2>Terimakasih,</h2><br>
+									<p>untuk para murid yang sudah berkontribusi saat drama sisingamangaraja
+										<div class="gallery__item" style="margin-top: 6rem;">
+											<h2>Pemeran Utama</h2><br>
+											<p>Chaya Rahmadhan Keyza Dwipa - Sisingamangaraja</p><br><br>
+											<p>Sekar Biru Langit - Putri</p><br><br>
+											<p>Daniel Purnama - Pangeran 1 </p><br><br>
+											<p>Raga Akalindra - Pangeran 2 </p><br><br>
+											<p>Jeremy Mauretz - Pengawal</p><br><br>
+											<p>Muhammad Ghaisan Abrisam - Pengawal</p><br><br>
+											<p>Annastasia Gita Surgawi - Dayang Kerajaan 1 </p><br><br>
+											<p>Archangel Caitlyn Feliciana - Dayang Kerajaan 2 </p><br><br>
+											<p>Shandy Gunawan - Tentara Belanda </p><br><br>
+											<p>Moses Ruri Saputra - Tentara Belanda </p><br><br>
+										</div>
+										<div class="gallery__item" style="margin-top: 2rem;">
+											<h2>Pemeran Pendukung</h2><br><br>
 
-</head>
-<body>
+											<p>Farrel Abrianto - Tentara Belanda </p><br><br>
+											<p>Jason Thio Wijaya - Tentara Belanda </p><br><br>
+											<p>Melvin Willis Setia Putra - Tentara Belanda</p><br><br>
+											
+											<p>Raffael Luciano - Tentara Belanda</p><br><br>
 
-	<div class="wrapper">
-		<div class="content">
+											<p>Abygail Priscilla Siahaan - Rakyat</p><br><br>
+											<p>Alykha Nur Syahrazzard Quensa Aulia - Rakyat</p><br><br>
+											<p>Benedikta Nindya Tiur Dewantari - Rakyat</p><br><br>
+											<p>George Nggarang Baralea - Rakyat</p><br><br>
+											<p>Glenn Albert Tjandra - Rakyat</p><br><br>
+											<p>Jeffray Naython Londo - Rakyat</p><br><br>
+											<p>Kalyca Caluella Adsella - Rakyat</p><br><br>
+											<p>Nichie Isabella Tan - Rakyat</p><br><br>
+											<p>Reinhard Dave Yunardi - Rakyat<br><br>
+										</div>
+										<div class="gallery__item">
+											<h2>Narator</h2><br><br>
+											<p>Matthew Lionel Raphael Siahaan</p><br><br>
+										</div>
+										<div class="gallery__item">
+											<h2>Tim Perekam Suara</h2><br><br>
+											<p>Annastasia Gita Surgawi</p><br><br>
+											<p>Sekar Biru Langit</p><br><br>
+										</div>
+										<div class="gallery__item">
+											<h2>Tim Properti</h2><br><br>
+											<p>Annastasia Gita Surgawi</p><br><br>
+											<p>Farrel Abrianto</p><br><br>
+											<p>Sekar Biru Langit</p><br><br>
+										</div>
+									</p>
+								</div>
+							</div>
+							<div data-speed="1.1" class="gallery__right" style="margin-top: 40rem;">
+								<img class="gallery__item" src="img/foto__1.jpeg" alt="Alt">
 
-			<header class="hero-section">
-				<img data-speed=".6" class="hero" src="img/" alt="fotbarkelas" >
-				<div class="container">
-					<div data-speed=".75" class="main-header">
-						<h1 class="main-title">Class 8A</h1>
+								<img class="gallery__item" src="img/foto__2.jpg" alt="Alt">
+
+								<img class="gallery__item" src="img/foto__3.jpg" alt="Alt">
+
+								<img class="gallery__item" src="img/foto__4.jpg" alt="Alt">
+
+								<img class="gallery__item" src="img/foto__5.jpg" alt="Alt">
+
+								<img class="gallery__item" src="img/foto__6.png" alt="Alt">
+							</div>
+						</main>
+						<main class="gallery">
+							<div data-speed=".9" class="gallery__left">
+
+								<img class="gallery__item" src="img/foto__09.jpeg" alt="Alt" style="margin-top: 35rem;">
+							</div>
+							<div data-speed="1.1" class="gallery__right">
+								<div class="gallery__item" style="margin-top: 55rem;" >
+									<h2 class="text-block__h">Terimakasih,</h2>
+									<p class="text-block__p">yang telah melatih di drama Sisingamangaraja<br><br>
+										<p>Annastasia Gita Surgawi</p><br><br>
+										<p>Raffael Luciano</p><br><br>
+										<p>Farrel Abrianto</p><br><br>
+									</p>
+									<div class="gallery__item" >
+										
+									</div>
+								</div>
+								<div class="gallery__item">
+									<h2 class="text-block__h">Menggambar Manual,</h2>
+									<p class="text-block__p">yang bertema " Despite everything it's still you "<br><br><br><p>Fellice Valery</p><br><br></p>
+								</div>
+							</div>
+						</main>
+						<main class="gallery">
+							<div data-speed=".9" class="gallery__left" >
+								<div class="gallery__item" style="margin-top: 20rem;" >
+									<img src="img/foto__8.jpg" width="550px">
+									<img src="img/foto__10.jpeg" width="550px" style="margin-top: 20rem; ">
+									<!--<img src="img/Tri- checking_20230528172958.png" width="550px" style="margin-top: 20rem; ">
+									<p>Kreator: Fellice Valery</p>-->
+								</div>
+								<div class="gallery__item" style="margin-top: 35rem;" >
+									<h2 style="text-align: center;">Terimakasih Khusus,</h2><br>
+									<p style="text-align: center;">Sekar Biru Langit</p><br>
+									<p style="text-align: center;">Annastasia Gita Surgawi</p><br>
+									<p style="text-align: center;">Reinhard Dave Yunardi</p><br>
+									<p style="text-align: center;">Farrel Abrianto</p><br>
+								</div>
+								<div class="gallery__item">
+									<h2 style="text-align: center;">Terimakasih Ms dan Mr,</h2>
+									<p class="text-block__p">yang telah membimbing kami disetiap pembelajaran</p><br><br>
+										<p style="text-align: center;">Ms Catherine - PoE dan Agama Katholik</p><br><br>
+										<p style="text-align: center;">Ms Maria - Matematika</p><br><br>
+										<p style="text-align: center;">Ms Josephine - Bahasa Inggris</p><br><br>
+										<p style="text-align: center;">Ms Fransisca - Public Speaking</p><br><br>
+										<p style="text-align: center;">Ms Candida - IPS</p><br><br>
+										<p style="text-align: center;">Ms Dhina - Biologi</p><br><br>
+										<p style="text-align: center;">Ms Gadis - PKN</p><br><br>
+										<p style="text-align: center;">Ms Mita - PoE dan Matematika</p><br><br>
+										<p style="text-align: center;">Ms Fincilia - IPS</p><br><br>
+										<p style="text-align: center;">Ms Nurella - Bahasa Sunda</p><br><br>
+										<p style="text-align: center;">Ms Yoan - SBK dan Agama Kristen</p><br><br>
+										<p style="text-align: center;">Ms Brigitta - Matematika</p><br><br>
+										<p style="text-align: center;">Ms Brigita - Bahasa Indonesia</p><br><br>
+										<p style="text-align: center;">Ms Rachmawati - Agama Islam</p><br><br>
+										<p style="text-align: center;">Ms Nurica - Agama Kristen</p><br><br>
+										<p style="text-align: center;">Ms Sumini - Agama Buddha</p><br><br>
+										<p style="text-align: center;">Ms Friska - Bahasa Indonesia</p><br><br>
+										<p style="text-align: center;">Ms Fitri - Pustakawati</p><br><br>
+										<p style="text-align: center;">Mr Tri - PJOK</p><br><br>
+										<p style="text-align: center;">Mr Silvester - TIK</p><br><br>
+										<p style="text-align: center;">Mr Venus - FISIKA</p><br><br>
+										<p style="text-align: center;">Mr Tata - Matematika</p><br><br>
+										<p style="text-align: center;">Mr Haryanto - BK</p><br><br>
+								</div>
+								<div class="gallery__item" style="margin-top: 20rem;">
+									<h2 style="text-align: center;">Terimakasih Ms. Maria,</h2><br>
+									<p style="text-align: center;">yang telah membimbing kami di kelas 8A.<br><br> 20 Juli 2022 - 17 Juni 2023</p>
+								</div>
+								<div data-speed=".9" class="gallery__left" style="display: none;" >
+									<div class="gallery__item" style="margin-top: 20rem;" >
+										<h2 style="text-align: center;">Karya - Karya 8A,</h2><br>
+										<p><img src="img/Epic!Sans-[BirthdayArt]_20230404010016.png" alt="" style="width: 250px;"><br> Kreator : Fellice Valery</p><br><br><br>
+										<p><img src="img/Glitch birthday._20230408122125.png" alt="" style="width: 250px;"><br> Kreator : Fellice Valery</p><br><br><br>
+									</div>
+								</div>
+								<div class="gallery__item">
+									<h2 style="text-align: center;">Kreator Web 8A dan Credit Scene</h2><br>
+									<p style="text-align: center;">Reinhard Dave Yunardi</p>
+								</div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<div class="gallery__item">
+									<h2>Family Day SCB Citra Berkat</h2>
+									<a href="https://kelas8a.pages.dev/class"><p style="text-align: center; opacity: 75%;" onclick="pudar()">&copy;  8A Class 2022.</p></a><br>
+								</div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+							</div>
+						</main>
 					</div>
 				</div>
-			</header>
-		
-			<div class="portfolio">
-				<div class="container">
-					<main class="gallery">
-	
-						<div data-speed=".9" class="gallery__left">
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quo.</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-						<div data-speed="1.1" class="gallery__right">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Kami Dari Kelas 8A!</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut tempora assumenda eius labore, perferendis repellendus dolorum itaque quibusdam!</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-					</main>
-					<main class="gallery">
-	
-						<div data-speed=".9" class="gallery__left">
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-						<div data-speed="1.1" class="gallery__right">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-					</main>
-					<main class="gallery">
-	
-						<div data-speed=".9" class="gallery__left">
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-						<div data-speed="1.1" class="gallery__right">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-					</main>
-					<main class="gallery">
-	
-						<div data-speed=".9" class="gallery__left">
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-						<div data-speed="1.1" class="gallery__right">
-		
-							<div class="text-block gallery__item">
-								<h2 class="text-block__h">Terimakasih Kepada</h2>
-								<p class="text-block__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorum eveniet sit asperiores commodi beatae cupiditate!</p>
-							</div>
-		
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-							<img class="gallery__item" src="img" alt="Alt">
-		
-						</div>
-
-					</main>
-				</div>
 			</div>
-
 		</div>
-	</div>
-
-</body>
+	</body>
 </html>
